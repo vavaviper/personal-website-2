@@ -1,0 +1,94 @@
+   /* Height for devices larger than 576px */
+   
+   @media (min-width: 992px) {
+       #intro {
+           margin-top: -58.59px;
+       }
+   }
+   
+   .navbar .nav-link {
+       color: white !important;
+   }
+   
+   .btn-primary,
+   .btn-primary:hover,
+   .btn-primary:active,
+   .btn-primary:visited {
+       background-color: #5CB7EA;
+       color: white;
+   }
+   
+   h1 {
+       text-align: center;
+       margin-top: 10%;
+       color: black;
+       font-size: 60px;
+   }
+   
+   h4 {
+       color: #5CB7EA;
+   }
+   
+   h6 {
+       text-align: center;
+   }
+   
+   .headerText {
+       text-align: center;
+   }
+   
+   #contact {
+       text-align: center;
+   }
+   
+   .links {
+       text-align: center;
+   }
+   
+   a:link {
+       color: black;
+   }
+   
+   a:visited {
+       color: black;
+   }
+   
+   .jumbotron {
+       background-image: url("img/tim-muangkeo-SNaq1drRxtY-unsplash.jpg");
+       background-size: cover;
+       height: 100vh;
+       width: 100vw !important;
+       /* margin-bottom: 100%; */
+       /* position: absolute; */
+       margin-left: 0;
+       padding-left: 0;
+   }
+   
+   #landing {
+       width: 100%;
+       transform: translateX(-80px);
+   }
+   
+   h7 {
+       text-align: center;
+   }
+   
+   html,
+   body,
+   header,
+   .top-nav-collapse {
+       background-color: white;
+       overflow-x: hidden;
+   }
+   
+   @media (max-width: 768px) {
+       .navbar:not(.top-nav-collapse) {
+           background-color: #24355C;
+       }
+   }
+   
+   @media (min-width: 800px) and (max-width: 850px) {
+       .navbar:not(.top-nav-collapse) {
+           background-color: #24355C;
+       }
+   }
